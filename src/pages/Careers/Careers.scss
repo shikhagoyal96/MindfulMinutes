@@ -1,0 +1,98 @@
+.careers {
+  background-color: #dbdbdb;
+  font-family: 'DMSans';
+  overflow-x: hidden;
+  // position: absolute;
+  // bottom: 0;
+  // min-height: 0;
+  height: 100%;
+  padding-top: 10vh;
+}
+
+.careers2 {
+  background-color: #2c354a;
+  font-family: 'DMSans';
+  overflow-x: hidden;
+  // position: absolute;
+  // bottom: 0;
+  height: 100%;
+  padding-top: 10vh;
+}
+
+#join {
+  font-family: 'DMSans-Bold';
+  padding-left: 10%;
+  color: '#2C354A';
+}
+
+#desc {
+  font-family: 'DMSans';
+  overflow-x: hidden;
+  padding-left: 10%;
+  text-align: left;
+  margin-right: 20%;
+  letter-spacing: -0.05em;
+  font-size: 1.4vw;
+}
+
+#weare {
+  font-family: 'DMSans-Bold';
+  padding-left: 10%;
+  color: 'white';
+}
+
+#desc2 {
+  font-family: 'DMSans';
+  overflow-x: hidden;
+  padding-left: 10%;
+  text-align: left;
+  margin-right: 10%;
+  font-size: 1.4vw;
+  letter-spacing: -0.05em;
+}
+
+.careers3 {
+  margin-top: 7%;
+  background-color: #424a5b;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+}
+
+.careers4 {
+  margin-top: 7%;
+  background-color: #424a5b;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  // margin-left: 20%;
+  border-radius: 10%;
+}
+
+#developer {
+  font-family: 'DMSans-Bold';
+  padding-top: 10%;
+}
+
+#designer {
+  font-family: 'DMSans-Bold';
+  padding-top: 10%;
+}
+
+#learnmore {
+  font-family: 'DMSans';
+  text-align: center;
+  color: '#DDDDDA';
+}
+
+#dev {
+  display: none;
+}
+
+#des {
+  display: none;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+}

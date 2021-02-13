@@ -1,0 +1,553 @@
+@font-face {
+  font-family: 'DMSans';
+  src: local('DMSans'), url(./fonts/DMSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DMSans-Bold';
+  src: local('DMSans-Bold'), url(./fonts/DMSans-Bold.ttf) format('truetype');
+}
+
+.nav {
+  font-family: 'DMSans';
+  background-color: #ffffff;
+  /* min-height: 4.5vh; */
+}
+
+.nav-items {
+  font-size: 1.1vw;
+  letter-spacing: -1px;
+  margin-top: 0.2vh;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-items-mobile {
+  font-size: 1.3em;
+  letter-spacing: -1px;
+  margin-top: 0.2vh;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-items:hover {
+  font-weight: bold;
+  color: #2c354a;
+}
+.nav-logo {
+  background-color: #2c354a;
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+.nav-logo-mobile {
+  background-color: #2c354a;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+.nav-logo:hover {
+  font-weight: #000000;
+}
+.facebook {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background: #2e364b url('./images/facebooklogowhite.png') no-repeat;
+}
+.facebook:hover {
+  background: #2e364b url('./images/facebooklogoblack.png') no-repeat;
+}
+
+.navbar-title {
+  display: inline;
+  color: #2c354a;
+  font-size: 5vh;
+  font-family: 'DMSans', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #2c354a;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 1em;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #2c354a;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #2c354a;
+}
+.nav-content {
+  align-content: right;
+}
+
+/* intro page */
+.para {
+  display: inline;
+  margin-left: 2rem;
+  color: #ffffff;
+}
+
+.intro {
+  background: #DDDDDA;
+  color: white;
+  text-align: center;
+  font-family: 'DMSans-Bold';
+  font-style: normal;
+  font-weight: bold;
+  overflow-x: hidden;
+  padding-top: 3em;
+}
+
+.intro-content {
+  background-color: #DDDDDA;
+  margin: 0 auto;
+  padding: 40px;
+  min-width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 10vh;
+}
+
+#thenew {
+  font-family: DMSans-Bold;
+}
+
+.theult {
+  margin-top: -10%;
+}
+
+.mobile {
+  background-color: white;
+}
+ul {
+  padding-left: 00px;
+  padding-right: 40px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.intro h1 {
+  font-size: 4vw;
+  font-family: 'DMSans';
+  font-weight: normal;
+}
+h1 {
+  display: block;
+  font-size: 5em;
+  margin-top: 3em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.intro .container {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+.intro h2 {
+  display: block;
+  font-size: 2.4vw;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  font-family: 'DMSans';
+  letter-spacing: -1px;
+  font-weight: 300;
+}
+.intro-logo {
+  margin-top: 0;
+  max-height: 60vh;
+  max-width: 40vw;
+  margin-bottom: 10vh;
+}
+.currentinit {
+  height: 3vw;
+  margin-bottom: 1.5em;
+}
+
+.intro-logo-mobile {
+  margin-top: 3vh;
+  width: 45vw;
+}
+.intro-nav {
+  background-color: #293247;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+}
+
+.meditation {
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.aboutus {
+  top: 50%;
+  left: 50%;
+  overflow-x: hidden;
+  background: '#2C354A';
+}
+
+.meditation h3 {
+  color: #2e364b;
+  font-family: 'DMSans';
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+.meditation h2 {
+  color: #2e364b;
+  font-family: 'DMSans';
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 10px;
+}
+
+.aboutus h3 {
+  font-family: 'DMSans-Bold';
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.aboutus h2 {
+  font-family: 'DMSans';
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 10px;
+}
+
+.meditation .laptop h5 {
+  display: inline-block;
+  padding: 2px;
+  font-family: 'DMSans';
+  font-size: 25px;
+  font-weight: bolder;
+}
+.meditation .laptop h6 {
+  display: inline-block;
+  padding: 2px;
+  font-family: 'DMSans';
+  font-size: 1.2em;
+}
+
+.meditation .mobile h5 {
+  display: block;
+  padding: 2px;
+  font-family: 'DMSans';
+  font-size: 18px;
+  font-weight: bolder;
+}
+.meditation .mobile h6 {
+  font-family: 'DMSans';
+  font-size: 0.8em;
+  display: block;
+  padding: 2px;
+}
+.meditation a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.meditation a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.med-point {
+  width: 40px;
+  padding-top: 3px;
+  padding-right: 3px;
+}
+.med-quote {
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: 'DMSans';
+  color: black;
+  font-size: 1.5em;
+  border-radius: 20px;
+  margin-top: 1em;
+}
+
+.macbook-mobile {
+  width: 300px;
+}
+
+.macbook {
+  width: 75vh;
+  height: 50vh;
+  margin-bottom: 20px;
+}
+.centered {
+  position: flex;
+  top: 50%;
+  left: 50%;
+  margin-top: 30vh;
+  /* bring your own prefixes */
+  /*transform: translate(-50%, -50%);*/
+}
+.meditation .section-content {
+  background: #ffffff;
+  margin-top: 3%;
+  /* padding: 40px; */
+  /* min-height: 0;
+  min-width: 100%; */
+}
+.aboutus .section-content {
+  margin: 0 auto;
+  padding: 40px;
+  min-height: 0;
+  min-width: 100%;
+  background: '#2C354A';
+}
+.monkmode .section-content {
+  background: #EDC89B;
+  margin: 0 auto;
+  padding: 40px;
+  min-width: 100%;
+}
+
+.monkmode .btn-light {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 14px 5px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.monkmode .btn-light:hover {
+  background-color: darkgrey;
+}
+
+.monkmode h3 {
+  color: #bc5e23;
+  font-family: 'DMSans';
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.monkmode h5 {
+  color: #bc5e23;
+  font-family: 'DMSans';
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.monkmode .monkTitle {
+  border-right: solid #bc5e23 7px;
+}
+
+.monkmode .monkQuote {
+  display: inline-block;
+  font-family: 'DMSans';
+  font-weight: bold;
+  font-style: italic;
+  width: 60vh;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+.monkmode .apps {
+  align-content: center;
+  padding-top: 70px;
+}
+.monkmode .appBox {
+  position: relative;
+  padding: 20px;
+  width: 40%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  font-family: 'DMSans';
+  color: black;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+.monkmode .appBoxMobile {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  font-family: 'DMSans';
+  color: black;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+.monkmode .appimg {
+  width: 10vh;
+  height: 10vh;
+  margin-top: 0.5em;
+}
+.monkmode .appimg-mobile {
+  width: 6vh;
+  height: 6vh;
+  margin-top: 0.5em;
+}
+.monkmode h2 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.monkmode p {
+  font: 'DM-Sans';
+  font-size: 0.7em;
+  font-weight: 100;
+}
+.monkmode h6 {
+  font: 'DM-Sans';
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+.monkmode h6::after {
+  content: '';
+  position: absolute;
+  left: 48%;
+  display: inline-block;
+  height: 1.3em;
+  width: 5%;
+  border-bottom: 6px solid;
+  margin-top: 5px;
+}
+.monkmode .monkpics {
+  height: 12em;
+  width: 11em;
+}
+.monkmode .monkpicsMobile {
+  height: 10em;
+  width: 9em;
+}
+.meditation .textBlock {
+  border-right: solid black 5px;
+  margin-top: 3em;
+  margin-right: 1em;
+}
+.aboutus .textBlock {
+  padding-right: 5em;
+  margin-top: 3em;
+  margin-right: 1em;
+}
+
+.meditation .textBlockMobile {
+  margin-top: 3em;
+}
+.aboutus .textBlockMobile {
+  margin-top: 3em;
+  color: #9fbdff;
+}
+.meditation .textBlock h6 {
+  display: block;
+  font-weight: normal;
+}
+.meditation .subtitle h2 {
+  color: black;
+  margin-top: 1em;
+  padding-left: 0;
+  font-size: 2.5em;
+}
+.aboutus .subtitle h2 {
+  margin-top: 1em;
+  padding-left: 0;
+  font-size: 2.5em;
+}
+.meditation .text p {
+  color: black;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.aboutus .text p {
+  font-family: 'DMSans';
+  color: #ffffff;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.nav-item > .active {
+  border-bottom: 1px solid #333;
+}
+.devImg {
+  margin-left: 2vw;
+  margin-top: 16px;
+  width: 25vh;
+  height: 25vh;
+}
+.devImgmobile {
+  margin-top: 16px;
+  width: 20vh;
+  height: 20vh;
+}
+
+/*leap css*/
+#section1, #section2{
+  display:inline;
+}
+#part1, #part2{
+  display: inline;
+}
+
+.footer {
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* align-items: center; */
+}
+.footer .h1mobile {
+  font-style: 'DMSans';
+  font-size: 1.5em;
+  padding-right: 0;
+  display: inline;
+  border-right: none;
+}
+.footer h1 {
+  font-style: 'DMSans';
+  font-size: 2em;
+  border-right: 4px solid black;
+  padding-right: 0.5em;
+  display: inline;
+}
+
+.logo {
+  height: 5em;
+  width: 9em;
+}
+.contacts {
+  margin-top: 2.5vh;
+  width: 4vh;
+  height: 4vh;
+}
+.footer .middle-align {
+  padding-top: 15px;
+}
