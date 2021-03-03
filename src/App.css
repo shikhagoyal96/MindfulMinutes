@@ -508,14 +508,6 @@ h1 {
   height: 20vh;
 }
 
-/*leap css*/
-#section1, #section2{
-  display:inline;
-}
-#part1, #part2{
-  display: inline;
-}
-
 .footer {
   background-color: black;
   height: 10vh;

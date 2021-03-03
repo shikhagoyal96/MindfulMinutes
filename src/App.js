@@ -8,6 +8,7 @@ import MonkMode from './Components/MonkMode';
 import AboutUs from './Components/AboutUs';
 import ContactUs from './Components/ContactUs';
 import Leap from './Components/Leap';
+import LeapSub from './Components/LeapSub';
 import MeditationPage from './pages/Meditation/Meditation';
 import Login from './pages/Login/Login';
 import Footer from './Components/Footer';
@@ -123,6 +124,9 @@ const App = () => {
             </Route>
             <Route path="/leap">
               <Leap />
+            </Route>
+            <Route path="/leapsub">
+              <LeapSub />
             </Route>
             {/* <Route path="/login">
                 <Login />

@@ -1,0 +1,133 @@
+import React from 'react';
+import MediaQuery from 'react-responsive';
+import Container from 'react-bootstrap/Container';
+import { BorderColor } from '@material-ui/icons';
+
+export default function Leap() {
+    return (
+      <>
+        <div id="leap" style={{backgroundColor:"pink", height:"500px"}}>
+          <div className="section1" style={{float:"left", width:"30%",margin:'6% 0% 6% 10%'}}>
+            <h1
+              style={{
+                float:"left",
+                color: 'black',
+                marginTop: '0',
+                paddingTop: '10%',
+                marginLeft: '10%',
+                fontFamily: 'DMSans-Bold',
+                fontSize: '100px'
+              }}
+            >
+              Leap
+            </h1>
+            <h2 
+              style={{
+                float:"left",
+                color: 'black',
+                marginTop: '0',
+                marginLeft: '20%',
+                fontFamily: 'DMSans-Bold',
+                fontSize: '40px'
+              }}
+            >
+              Another step forward
+            </h2></div>
+            <div id="section2"
+              style={{
+                backgroundColor:'black',
+                width:'0.5%',
+                height: '300px',
+                float: 'left',
+                marginTop: '85px'
+              }}
+            ></div>
+            <div id="section3">
+              <h3 
+                style={{
+                  float:"left",
+                  color: 'black',
+                  marginTop: '85px',
+                  marginLeft: '2%',
+                  fontFamily: 'DMSans-Bold',
+                  fontSize: '20px'
+                }}
+              >
+                The Latest<br/>
+                EDITOR'S PICK
+              </h3>
+            </div> 
+          </div> 
+          
+          <div style={{margin: '4% 6%'}}>
+            <div>
+              <h3 style={{fontSize: '28px'}}>ALL ARTICLES</h3> 
+              <p style={{fontSize: '26px'}}>Take an innovative look into the world of mental health, personal development and well-being.</p>
+            </div>
+            
+            <div style={{display: 'flex'}}>
+              <div id='part1' style={{width: '90%'}}>
+                  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum, elit quis aliquet malesuada, arcu purus interdum lorem, id volutpat tortor sem vel risus. Pellentesque ut leo mollis, malesuada lectus vel, euismod mauris. Integer mollis hendrerit nisl, maximus fermentum mauris sagittis a. Aenean non consectetur ante, vel tincidunt magna. Sed sed ornare diam, in egestas libero. Sed condimentum nunc non est finibus tristique. In vel venenatis nisl, eu sagittis turpis. Mauris justo eros, tempor eu placerat eget, tempus eu lacus. Morbi semper nisl in tempor malesuada. Sed augue felis, lobortis quis convallis eu, consequat eget est. Sed accumsan, diam posuere faucibus fermentum, lectus metus malesuada tortor, vitae aliquet augue mauris ut neque. Nunc non aliquet arcu. Vivamus at pulvinar nisi.</h4>
+              </div>
+
+              <div id="part2"
+              style={{
+                backgroundColor: 'lightgrey',
+                width:'0.3%',
+                height: '300px',
+                float: 'left',
+                margin: '0% 2%'
+              }}
+            ></div>
+
+              <div id='part3' style={{width:'60%'}}>
+                  <div>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>abc</button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>gfcbvnbvbn </button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px'}}>abc</button><br/>
+
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>abc</button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>gjhbjbkjnk</button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px'}}>abc</button><br/>
+
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>abc</button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>abc</button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px'}}>abc</button><br/>
+
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>abc</button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px', margin: '0% 2% 2% 0%'}}>abc</button>
+                    <button style={{backgroundColor:'pink', borderRadius: '10px'}}>abc</button><br/>
+                  </div>
+                  <div
+                    style={{
+                      backgroundColor: 'lightgrey',
+                      width:'100%',
+                      height: '1%',
+                      float: 'left',
+                      margin: '0% 2%'
+                    }}
+                  ></div>
+                  <br/>
+                  <div>
+                    <h4>NEWSLETTER SIGN UP</h4>
+                    <p>Sign up for our weekly newsletter to stay up to date with the blogs, etc., etc.,</p>
+                    <button className="signbtn" name="signup" style={{
+                      backgroundColor:'lightgrey',
+                      borderColor: 'none'
+                    }}>Sign Me Up</button>
+                  </div>
+              </div>
+            </div>
+           
+
+            <div>
+
+            </div>
+          </div>
+
+          <div></div>
+
+          
+        </>
+    );
+}
